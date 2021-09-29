@@ -15,12 +15,11 @@ body {
     margin: 0;
     font-family: var(--custom-font), monospace;
 
-    background-color:  var(--primary-color);
+    background-color: #e5e5f7;
     opacity: 0.8;
-    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;
+    background-image: radial-gradient(#444cf7 0.2px, #e5e5f7 0.2px);
+    background-size: 4px 4px;
 }
-
 
 
 
