@@ -4,34 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morse Code Translator</title>
-    <link rel="stylesheet" href="styles.css" />
-
+    <title>Morse Code</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
     <nav>
-        Morse Code Translator
+        <h1>Morse Code Translator</h1>
     </nav>
 
     <main>
+        <h1 class="label1">SEND A SECRET MESSAGE TO THE HEADQUARTER.</h1>
 
-        <textarea id="txt-input" placeholder="Enter some text to translate to banana language:"></textarea>
+        <textarea id="input-txt" placeholder="Enter text to convert to Morse code:"></textarea>
 
-        <button id="btn-translate">Translate</button>
+        <button id="translate-btn">TRANSLATE</button>
 
-        <div class="label">Translated text: 👇</div>
-        <div id="txt-output"></div>
+        <div class="label2">Morse code ⬇</div>
+
+        <div id="output-txt">&lt;/&gt;</div>
+        
 
     </main>
 
     <footer>
-        <div class="footer-heading">About</div>
-        <p>Convert from English to Minion speak. This language is spoken by the minions in Despicable Me. Yi kai yai yai bananna!</p>
+        <div>INFO</div>
+
+        <p>Made with funtranslations API. <br> 
+            Made by <a href="http://kushanksriraj.netlify.app" target="_blank">Kushank Sriraj</a></p>
     </footer>
 
-    <script src="app.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>  
+
 </body>
 
 </html>
